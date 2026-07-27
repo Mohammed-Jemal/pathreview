@@ -17,12 +17,12 @@
 
 ## Week 8 — Reproduction & solution planning
 
-***Reproduction commit link:*** [Pending commit link]
+***Reproduction commit link:*** [https://github.com/Mohammed-Jemal/pathreview.git
+   697e058..7070ad7]
 
 ***Reproduction summary:*** Reproduced issue #153 by running `pytest tests/unit/test_faithfulness_checker.py`. The test `test_none_context_chunk_text` failed with `TypeError: sequence item 0: expected str instance, NoneType found` when passing `context_chunks = [{"text": None}]`.
 
-***PLAN.md link:*** [Pending link to PLAN.md]
+***PLAN.md link:*** [https://github.com/Mohammed-Jemal/pathreview/blob/fix/153-faithfulness-checker-none-crash/PLAN.md]
 
-***Walkthrough video (recommended):*** 
 
-***Blockers or open questions:***
+***Blockers or open questions:***[I don't have question by now]
