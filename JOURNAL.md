@@ -26,3 +26,34 @@
 
 
 ***Blockers or open questions:***[I don't have question by now]
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+[Implemented defensive check '(chunk.get("text") or "")' in 'rag/evaluator/faithfulness_checker.py]' to prevent 'TypeError' when context chunks contain 'None' text values. verified that 'test_none_context_chunk_text' in tests/unit/test_faithfulness_checker.py' now passed.
+
+**Next steps:**
+[Run full project checks ('make check', make test_unit'), create a pull request against the main repository, and get peer feedback].
+
+**Blockers:**
+[first time i was expecting all the test to pass, but learned that was another bug that isn't related to fix/153. ]
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:** [link to your submitted pull request]
+
+**Branch:** [fix/153-faithfulness-checker-none-crash]
+
+**What you built:**
+[Updated the context chunk text extraction in 'Faithfulnesschecker' to fall back to an string like ('""') whenever a chunk text field is explicityly set to 'None'. This prevents a TypeError error during joining the chunks]
+
+**Tests added or updated:**
+[tests/unit/test_faithfulness_checker.py, verified and the test_none_context_chunk_text' passed]
+
+**Self-review confirmation:** [X ] make check passes  [ ] make test-unit passes
+
+**Draft PR feedback received from:** ["none"]
