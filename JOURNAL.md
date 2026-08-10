@@ -57,3 +57,35 @@
 **Self-review confirmation:** [X ] make check passes  [ ] make test-unit passes
 
 **Draft PR feedback received from:** ["none"]
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [ X ] No — still awaiting review
+
+**Summary of feedback:**
+[Until now reviewer feedback was not received.]
+
+**How you responded:**
+[ ]
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+[Tracing the dict.get('text',"") that means when the code behave explicitly 'None values were passed vs missing keys was more subtle than expected. Also identifying the testing/pytest code was harder to reproduce the and confirm bug] 
+
+**What did you learn about working in a large codebase?**
+[Working in a production style repository taught me how to navigate with different files and understanding the code, then handling the defencive check so refactoring does not break dependent evaluation piplines]
+
+**How did AI tools help — and where did they fall short?**
+[AI tools were great for quick isolation and used more to understand some logic in the code and mainly when i set up the requirement AI guide me step by step.]
+
+**What would you do differently if you started over?**
+[Issue selection, planning, implementation, or process — anything
+you'd change? I might not go that much differently but for sure i select the issue first and then reproduce the bug, before i start implementation, to make sure the issue is correct. based on the output, i will dive directly into that file and understand the logic and some other related code.]
+
+**What are you most proud of from this module?**
+[I am most proud of understanding the logic and how I successfully pull request  and handled edge case, finally documenting the entire 4 week step by step development process ]
